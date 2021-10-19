@@ -167,6 +167,11 @@ body {
 }
 .main.active {
   opacity: 0;
+  overflow: hidden;
+}
+
+body.lock {
+  overflow: hidden;
 }
 
 .welcome {
@@ -213,12 +218,15 @@ body {
   font-size: 32px;
   font-weight: 900;
   line-height: 40px;
-  font-weight: bold;
+  font-family: Inter;
+  font-style: normal;
   margin-bottom: 28px;
 }
 .welcome__text p {
-  width: 90%;
   color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
 }
 
 .about {
@@ -227,6 +235,7 @@ body {
 .about__content {
   color: #242A56;
   padding: 40px 0px;
+  font-family: Inter;
 }
 .about__img {
   width: 100%;
@@ -248,6 +257,7 @@ body {
   font-size: 18px;
   line-height: 26px;
   font-weight: bold;
+  font-style: normal;
 }
 .about__trigger {
   padding: 16px;
@@ -256,13 +266,76 @@ body {
   border-radius: 12px;
   border: 1px solid #C1D3DE;
 }
-.about__trigger p:not(:last-child) {
+.about__trigger p {
   line-height: 24px;
+}
+.about__trigger p:not(:last-child) {
   margin-bottom: 18px;
 }
 .about__outro_text p {
+  font-family: Roboto;
+  font-weight: normal;
+  font-style: normal;
   text-align: left;
   margin-bottom: 18px;
   font-weight: normal;
   line-height: 26px;
+}
+
+.targets {
+  padding: 40px 0px 0px 0px;
+  margin-bottom: 40px;
+}
+.targets__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  font-family: "Inter";
+}
+.targets__title {
+  margin-bottom: 32px;
+  line-height: 36px;
+  font-size: 28px;
+  font-weight: 900;
+}
+.targets__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+.targets__grid > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.targets__grid > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+.targets__item {
+  margin-bottom: 32px;
+}
+.targets__item img {
+  margin-bottom: 20px;
+}
+.targets__item p {
+  color: #393A56;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
 }

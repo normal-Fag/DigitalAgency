@@ -3,12 +3,12 @@
 	&__content {
 		color: #242A56;
 		padding: 40px 0px;
+		font-family: Inter;
 	}
 	&__img {
 		width: 100%;
 		display: flex;
 		margin-bottom: 20px;
-		// padding-top: 40px;
 		align-items: center;
 		justify-content: center;
 		img {
@@ -20,6 +20,7 @@
 		font-size: 18px;
 		line-height: 26px;
 		font-weight: bold;
+		font-style: normal;
 	}
 	&__trigger {
 		padding: 16px;
@@ -27,13 +28,18 @@
 		background: #FBF7F1;
 		border-radius: 12px;
 		border: 1px solid #C1D3DE;
-		p:not(:last-child) {
+		p {
 			line-height: 24px;
+		}
+		p:not(:last-child) {
 			margin-bottom: 18px;
 		}
 	}
 	&__outro_text {
 		p {
+			font-family: Roboto;
+			font-weight: normal;
+			font-style: normal;
 			text-align: left;
 			margin-bottom: 18px;
 			font-weight: normal;
