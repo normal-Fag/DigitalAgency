@@ -1,0 +1,129 @@
+.services {
+	background: url(../img/about/about_bg.jpg) center/cover no-repeat;
+	font-family: 'Inter';
+	padding: 40px 0;
+	&__title {
+		margin-bottom: 32px;
+		// padding: 40px 0 0 0;
+		line-height: 36px;
+		font-size: 28px;
+		font-weight: 900;
+		text-align: center;
+	}
+	&__list {
+		margin-bottom: 20px;
+	}
+	&__item {
+		padding: 20px;
+		background: #fff;
+		border: 1px solid #C1D3DE;
+		border-radius: 12px;
+		margin-bottom: 10px;
+	}
+	&__name {
+		font-weight: bold;
+		font-style: normal;
+		font-size: 18px;
+		line-height: 130%;
+		margin-bottom: 8px;
+	}
+	&__desc {
+		font-weight: normal;
+		font-style: normal;
+		font-size: 16px;
+		line-height: 26px;
+		margin-bottom: 12px;
+	}
+	&__table {
+		display: flex;
+		margin-bottom: 16px;
+	}
+	&__specs-list {
+		display: flex;
+		flex-direction: column;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 12px;
+		line-height: 16px;
+	}
+	&__spec {
+		display: flex;
+		align-items: center;
+		padding: 0 10px;
+		height: 44px;
+		& p {
+			width: 89px;
+		}
+	}
+	&__spec-icon {
+		& p {
+			width: 109px;
+		}
+	}
+	&__spec:nth-child(odd) {
+		background: #EDF4FA;
+		border-bottom: 1px solid #C1D3DE;
+		border-top: 1px solid #C1D3DE;
+	}
+	&__value-list {
+		display: flex;
+		flex-direction: column;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	&__value {
+		width: 129px;
+		display: flex;
+		align-items: center;
+		height: 44px;
+	}
+	&__value:nth-child(odd) {
+		background: #EDF4FA;
+		border-bottom: 1px solid #C1D3DE;
+		border-top: 1px solid #C1D3DE;
+	}
+	&__value-icon {
+		justify-content: center;
+	}
+	&__order-btn {
+		position: relative;
+		width: 100%;
+		color: #fff;
+		background: #376FFF;
+		padding: 12px 69px;
+		border-radius: 12px;
+	}
+	&__btn-inner {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		& p {
+			font-size: 16px;
+			line-height: 24px;
+		}
+		& img {
+			margin-left: 24px;
+		}
+	}
+	&__info {
+
+	}
+	.info {
+		background: #EDF4FA;
+		border: 1px solid #C1D3DE;
+		border-radius: 12px;
+		padding: 20px;
+		&__icon {
+			margin-bottom: 10px;
+		}
+		&__text {
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 26px;
+		}
+	}
+}

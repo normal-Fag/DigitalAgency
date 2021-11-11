@@ -1,6 +1,7 @@
 @import "zeroing.scss"; // Обнуление
 @import "header.scss"; // Header
 @import "main_content.scss"; 
-@import "welcome_section.scss"; // Первая секция
-@import "about_section.scss"; // Вторая секция
-@import "targets.scss"; // Третья секция 
+@import "welcome_section.scss"; // Первая секция (Приветствие)
+@import "about_section.scss"; // Вторая секция (Кто мы такие)
+@import "targets.scss"; // Третья секция (Кому показываем рекламу)
+@import "services.scss"; // Четвертая секция (Сервисы и цены)
