@@ -23,6 +23,25 @@ function init() {
 		burger_button.classList.toggle('active');
 
 	})
+
+	const swiper = new Swiper('.swiper', {
+		// Optional parameters
+		diraction: 'vertical',
+		loop: true,
+		// Если нужно разделение на страницы / If we need pagination
+		pagination: {
+			el: '.swiper-pagination'
+		},
+		// Navigation arrows
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+		// And if we need scrollbar 
+		scrollBar: {
+			el: '.swiper-scrollbar',
+		},
+	})
 }
 
 function setHeights() {
@@ -56,3 +75,4 @@ function wireUpTriggers() {
 		});
 	});
 }
+

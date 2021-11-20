@@ -6,3 +6,15 @@
 @import "targets.scss"; // Третья секция (Кому показываем рекламу)
 @import "services.scss"; // Четвертая секция (Сервисы и цены)
 @import "advertising.scss"; // Пятая секция (Что такое реклама в Google)
+@import "offer.scss"; // Шестая секция (Слайдер "Что мы предлпгаем")
+@import "result.scss"; // Седьмая секция (Что вы получите в результате?)
+
+.title {
+	color: rgba(36, 42, 86, 1);
+	font-family: Inter;
+	margin-bottom: 32px;
+	line-height: 36px;
+	font-size: 28px;
+	font-weight: 900;
+	text-align: center;
+}
