@@ -1,0 +1,13 @@
+.main {
+	transition: 0.5s ease 0s all;
+	&.active {
+		opacity: 0;
+		overflow: hidden;
+	}
+}
+
+body  {
+	&.lock {
+		overflow: hidden;
+	}
+}

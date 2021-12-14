@@ -1,0 +1,83 @@
+.footer {
+	padding: 40px 0;
+	background: url(../img/about/about_bg.jpg) center/cover no-repeat;
+	font-family: Inter;
+	font-size: 16px;
+	line-height: 24px;
+	font-style: normal;
+	&__content {
+	}
+	&__logo {
+		display: block;
+		margin-bottom: 32px;
+	}
+	&__copyright {
+		color: rgba(139, 155, 171, 1);
+		font-weight: 400;
+		// font-size: 18px;
+	}
+}
+.form {
+	color: #fff;
+	font-weight: 400;
+	padding: 40px 20px;
+	border-radius: 12px;
+	margin-bottom: 40px;
+	background: #376FFF;
+	&__title {
+		font-size: 28px;
+		line-height: 36px;
+		font-weight: 900;
+		margin-bottom: 20px;
+	}
+	&__subtitle {
+		margin-bottom: 20px;
+	}
+	&__input {
+		display: inline-block;
+		border-radius: 12px;
+		background: transparent;
+		border: 2px solid #C1D3DE;
+		color: #C1D3DE;
+		padding: 12px 22px;
+		width: 100%;
+		margin-bottom: 9px;
+	}
+	&__button {
+		width: 100%;
+		background: #FFF;
+		padding: 12px 62px;
+		border-radius: 12px;
+		color: #376FFF;
+	}
+}
+.contacts {
+	&__list {
+	}
+	&__item {
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+	&__title {
+		color: rgba(139, 155, 171, 1);
+		margin-bottom: 8px;
+	}
+	&__contact {
+		display: inline-block;
+		font-size: 18px;
+		line-height: 26px;
+		color: rgba(55, 111, 255, 1);
+		border-bottom: 1.5px solid rgba(55, 111, 255, 1);
+		&:not(:last-child){
+			margin-bottom: 10px;
+		}
+	}
+	&__contact-adres {
+		color: rgba(57, 58, 86, 1);
+		border-bottom: none;
+	}
+	& #map {
+		height: 40vh;
+		margin-bottom: 24px;
+	}
+}

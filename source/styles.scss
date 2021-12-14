@@ -1,0 +1,22 @@
+@import "zeroing.scss"; // Обнуление
+@import "header.scss"; // Header
+@import "main_content.scss"; 
+@import "welcome_section.scss"; // Первая секция (Приветствие)
+@import "about_section.scss"; // Вторая секция (Кто мы такие)
+@import "targets.scss"; // Третья секция (Кому показываем рекламу)
+@import "services.scss"; // Четвертая секция (Сервисы и цены)
+@import "advertising.scss"; // Пятая секция (Что такое реклама в Google)
+@import "offer.scss"; // Шестая секция (Слайдер "Что мы предлпгаем")
+@import "result.scss"; // Восьмая секция (Что вы получите в результате?)
+@import "clients.scss"; // Девятая секция 
+@import "footer.scss"; // Footer
+
+.title {
+	color: rgba(36, 42, 86, 1);
+	font-family: Inter;
+	margin-bottom: 32px;
+	line-height: 36px;
+	font-size: 28px;
+	font-weight: 900;
+	text-align: center;
+}
